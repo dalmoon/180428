@@ -12,8 +12,12 @@ public class OpTest3 {
 		// 2. 산출(리턴,저장,뷰)
 		res = num1 % 2 == 0; // res가 2의 배수
 		System.out.println(res);
-		if (res = num1 % 2 == 0) {
+		if (res = num1 % 2 != 0) {
 			System.out.println("짝수");
 		}
+		// 삼항조건연산자 (조건?조건이 참인 경우 결과 : 조건이 거짓인 경우 결과)
+		String result = res ? "짝수" : "음수";
+		System.out.println(result);
+
 	}
 }

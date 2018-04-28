@@ -14,7 +14,7 @@ public class IFTest5 {
 
 		int year;
 
-		System.out.println("윤년을 입력하세요.");
+		System.out.print("윤년을 입력하세요.");
 		year = sc.nextInt();
 
 		String yun_label = "평년";
