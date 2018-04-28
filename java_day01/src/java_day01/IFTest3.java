@@ -9,7 +9,7 @@ public class IFTest3 {
 	public static void main(String[] args) {
 		// 1. 데이터 구조 및 대입연산
 		// 번수크기 4 변수명 선언 : 연속변수
-		int num = 10;
+		int num = -10;
 		String res = "미정";
 		// 짝,홀 여부 : 범주변수
 		// ------------------------
@@ -26,5 +26,8 @@ public class IFTest3 {
 			res = "음수";
 		}
 		System.out.println(res);
+		// && 두개의 관계식이 참인경우 참
+		// System.out.println(num > 0 && num < 100);
+		System.out.println(!(num > 0 || num < 100));
 	}
 }
